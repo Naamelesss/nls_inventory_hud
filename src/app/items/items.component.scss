@@ -1,0 +1,24 @@
+.icon {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    // left: calc(50% - 100px/2 - 403px);
+    // top: calc(50% - 100px/2 - 183px);
+    background: rgba(134, 134, 134, 0.15);
+}
+
+.textbar {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    top: 85px;
+    
+    background: rgba(0, 0, 0, 0.35);
+
+    display:table-cell;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+    color: white;
+}
